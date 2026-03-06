@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+build
+.env*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+push.js
+diagnostic.txt
+git_push_log.txt
+hello.txt
+output.txt

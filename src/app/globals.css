@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-terracotta: #C05746;
+  --color-indigo-dye: #2E4756;
+  --color-ochre: #D49D42;
+  --color-off-white: #F7F3E9;
+  --color-earth: #4A3728;
+
+  --font-serif: var(--font-serif), serif;
+  --font-sans: var(--font-sans), sans-serif;
+}
+
+:root {
+  --background: #F7F3E9;
+  --foreground: #4A3728;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-earth;
+  }
+}
