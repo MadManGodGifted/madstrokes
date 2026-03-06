@@ -44,7 +44,8 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3 className="text-xl font-serif text-earth mb-1">Email</h3>
-                                <p className="text-earth/60 font-sans">contact@madstrokes.com</p>
+                                <p className="text-earth/60 font-sans">madstrokess@gmail.com
+                                </p>
                             </div>
                         </div>
 
@@ -54,7 +55,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3 className="text-xl font-serif text-earth mb-1">Instagram</h3>
-                                <p className="text-earth/60 font-sans">@madstrokes_art</p>
+                                <p className="text-earth/60 font-sans">@mads.strokes</p>
                             </div>
                         </div>
 

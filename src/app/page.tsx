@@ -1,7 +1,14 @@
 import Hero from "@/components/Hero";
 import InteractiveMap from "@/components/InteractiveMap";
+import ArtCard from "@/components/ArtCard";
+import { artForms } from "@/lib/artData";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
+    // Selection of art forms to feature on the home page
+    const featuredArtForms = artForms.slice(0, 3);
+
     return (
         <main className="flex flex-col w-full">
             <Hero />
@@ -48,6 +55,103 @@ export default function Home() {
                                 <div className="text-earth/20 font-serif text-2xl">Artistic Representation</div>
                             </div>
                             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-terracotta/10 rounded-full -z-10 blur-2xl" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Featured Art Forms Section */}
+            <section className="py-24 bg-off-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex justify-between items-end mb-12">
+                        <div>
+                            <h2 className="text-4xl font-serif text-indigo-dye mb-4">Traditional Art Forms</h2>
+                            <p className="text-earth/60 font-sans max-w-xl">
+                                Explore a curated selection of India&apos;s most iconic and storied artistic traditions.
+                            </p>
+                        </div>
+                        <Link
+                            href="/art-forms"
+                            className="hidden md:flex items-center space-x-2 text-terracotta font-serif hover:underline group"
+                        >
+                            <span>View All Art Forms</span>
+                            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        </Link>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {featuredArtForms.map((art) => (
+                            <ArtCard key={art.id} art={art} />
+                        ))}
+                    </div>
+
+                    <div className="mt-12 text-center md:hidden">
+                        <Link
+                            href="/art-forms"
+                            className="inline-flex items-center space-x-2 text-terracotta font-serif hover:underline group"
+                        >
+                            <span>View All Art Forms</span>
+                            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* Owner's Portfolio Preview Section */}
+            <section className="py-24 bg-white overflow-hidden">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="relative">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                            <div className="order-2 lg:order-1 relative">
+                                <div className="aspect-[4/5] bg-off-white border border-indigo-dye/10 rounded-2xl overflow-hidden flex items-center justify-center">
+                                    <span className="text-earth/20 font-serif text-xl italic text-center p-8">
+                                        Showcasing a collection of personal artworks by the creator of Mad Strokes.
+                                    </span>
+                                </div>
+                                <div className="absolute -top-10 -left-10 w-40 h-40 bg-ochre/5 rounded-full blur-3xl -z-10" />
+                                <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-indigo-dye/5 rounded-full blur-3xl -z-10" />
+                            </div>
+
+                            <div className="order-1 lg:order-2">
+                                <h2 className="text-sm font-sans uppercase tracking-[0.2em] text-terracotta mb-4 font-bold">
+                                    THE ARTIST BEHIND THE STROKES
+                                </h2>
+                                <h3 className="text-5xl font-serif text-indigo-dye mb-8 leading-tight">
+                                    Personal Works & <br />
+                                    Creative Journey
+                                </h3>
+                                <p className="text-lg text-earth/70 leading-relaxed mb-8 font-sans">
+                                    Beyond documenting traditional forms, Mad Strokes is also a home for contemporary creative
+                                    expressions. Discover personal experiments with texture, color, and storytelling that
+                                    bridge the gap between heritage and modern aesthetics.
+                                </p>
+                                <div className="space-y-6 mb-10">
+                                    <div className="flex items-start space-x-4">
+                                        <div className="w-12 h-12 flex-shrink-0 bg-off-white rounded-full flex items-center justify-center text-ochre">
+                                            <span className="font-serif text-xl">01</span>
+                                        </div>
+                                        <div>
+                                            <h4 className="font-serif text-xl text-indigo-dye mb-1">Modern Infusions</h4>
+                                            <p className="text-earth/60 text-sm italic">Blending traditional motifs with contemporary techniques.</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start space-x-4">
+                                        <div className="w-12 h-12 flex-shrink-0 bg-off-white rounded-full flex items-center justify-center text-terracotta">
+                                            <span className="font-serif text-xl">02</span>
+                                        </div>
+                                        <div>
+                                            <h4 className="font-serif text-xl text-indigo-dye mb-1">Storytelling Through Art</h4>
+                                            <p className="text-earth/60 text-sm italic">Each stroke carries a narrative of personal growth and exploration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <Link
+                                    href="/portfolio"
+                                    className="inline-block px-8 py-4 bg-indigo-dye text-white font-serif hover:bg-indigo-dye/90 transition-colors rounded-sm shadow-lg shadow-indigo-dye/20"
+                                >
+                                    Explore the Portfolio
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
