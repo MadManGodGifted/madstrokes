@@ -6,7 +6,7 @@ import { MapPin, Calendar, ScrollText, Palette, Users } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function ArtDetail { params }: { params: { id: string } }) {
+export default function ArtDetail({ params }: { params: { id: string } }) {
     const art = artForms.find((a) => a.id === params.id);
 
     if (!art) {
