@@ -9,27 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "latest",
+    "leaflet": "^1.9.4",
+    "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest",
-    "framer-motion": "latest",
-    "leaflet": "^1.9.4",
     "react-leaflet": "^4.2.1",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "typescript": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@types/leaflet": "^1.9.12",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@types/leaflet": "^1.9.12",
-    "postcss": "latest",
-    "@tailwindcss/postcss": "latest",
-    "tailwindcss": "latest",
     "autoprefixer": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
