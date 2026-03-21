@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "vercel/install-and-configure-vercel-w-01vx3m"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "vercel/install-and-configure-vercel-w-01vx3m": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "vercel/install-and-configure-vercel-w-01vx3m"
+  ]
+}
