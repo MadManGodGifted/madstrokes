@@ -6,9 +6,6 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export default function Home() {
-    // Selection of art forms to feature on the home page
-    const featuredArtForms = artForms.slice(0, 3);
-
     return (
         <main className="flex flex-col w-full">
             <Hero />
@@ -78,14 +75,18 @@ export default function Home() {
                             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                         </Link>
                     </div>
+                </div>
 
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {featuredArtForms.map((art) => (
+                        {artForms.slice(0, 6).map((art) => (
                             <ArtCard key={art.id} art={art} />
                         ))}
                     </div>
+                </div>
 
-                    <div className="mt-12 text-center md:hidden">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center md:hidden">
                         <Link
                             href="/art-forms"
                             className="inline-flex items-center space-x-2 text-terracotta font-serif hover:underline group"

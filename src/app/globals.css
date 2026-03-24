@@ -33,3 +33,22 @@ body {
     @apply font-serif text-earth;
   }
 }
+
+/* Premium Leaflet Popup Styling */
+.leaflet-popup-content-wrapper {
+  @apply !rounded-xl !shadow-2xl !border !border-terracotta/10 !p-0 !overflow-hidden;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(8px);
+}
+
+.leaflet-popup-content {
+  @apply !m-0 !w-full;
+}
+
+.leaflet-popup-tip {
+  @apply !bg-white/95;
+}
+
+.premium-popup .leaflet-popup-close-button {
+  @apply !text-earth/40 hover:!text-terracotta !transition-colors !pt-2 !pr-2;
+}

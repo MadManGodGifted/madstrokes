@@ -1,0 +1,182 @@
+[
+  {
+    "id": "chittara",
+    "name": "Chittara Art",
+    "state": "Karnataka",
+    "region": "South",
+    "shortDescription": "Ornate wall and floor art from the Malnad region, using natural materials to depict life cycles.",
+    "detailedDescription": "Chittara art is a traditional folk art form practiced by the Deevaru community in the Malnad region of Karnataka. It is an intricate form of wall and floor art primarily done by women to mark auspicious occasions like weddings and harvests. The art is characterized by its geometric patterns, consisting of lines, dots, and squares, created using natural materials. Traditionally, the background is red mud, and the drawings are made with white rice paste, yellow from forest seeds, and black from roasted rice. Each pattern holds a specific symbolic meaning, reflecting the community's deep connection to nature and their socio-religious beliefs. The most famous motif is the 'Chittara Chowki', which represents the sacred center of the universe. Beyond its decorative value, Chittara serves as a medium for community storytelling and the transmission of traditional knowledge across generations. Today, it is recognized for its unique aesthetic and cultural significance, and efforts are being made to preserve it through modern applications in textile and product design.",
+    "history": "Deeply ingrained in the agrarian rituals of the Malnad region for centuries, Chittara art has been preserved by nomadic and settled tribal communities. It was once a common sight in every village home but is now a rare and precious heritage craft.",
+    "materialsUsed": ["Rice paste", "Red mud", "Yellow seeds", "Roasted rice", "Bamboo brushes"],
+    "culturalSignificance": "A symbol of community spirit and religious devotion. It is used to sanctify homes and celebrate the cyclic nature of life, agriculture, and tribal identity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 14.2000, "lng": 75.0000 },
+    "medium": "Natural pigments on mud wall/floor"
+  },
+  {
+    "id": "keralamural",
+    "name": "Kerala Mural Painting",
+    "state": "Kerala",
+    "region": "South",
+    "shortDescription": "Classical fresco art from Kerala temples, known for its vibrant colors and dynamic figures.",
+    "detailedDescription": "Kerala mural painting is a highly stylized classical art form that originated between the 9th and 12th centuries CE. These frescoes are found primarily in the temples and palaces of Kerala, depicting scenes from Hindu mythology and the life of deities. The style is characterized by its dynamic, flowing lines, vibrant natural colors (panchavarna—five colors), and intense emotional expression. The process of creating a mural is extremely labor-intensive, involving the careful preparation of the wall surfaces with lime and sand, followed by painting while the plaster is still wet or semi-dry. The figures are often portrayed with large, expressive eyes and elaborate jewelry, reflecting the aesthetics of traditional Kerala performing arts like Kathakali. Beyond their religious function, these murals are masterpieces of compositional skill and artistic depth, capturing the rich cultural and spiritual heritage of the Malabar coast. Today, the art form is preserved through rigorous training and continues to inspire contemporary artists worldwide.",
+    "history": "The golden age of Kerala murals was during the 16th to 18th centuries under the patronage of regional kingdoms. Many of these masterpieces have survived in temple sanctums like Guruvayur and Padmanabhaswamy, representing a centuries-old tradition of sacred visual narrative.",
+    "materialsUsed": ["Lime plaster", "Natural minerals", "Plant extracts", "Ayurvedic oils", "Fine brushes"],
+    "culturalSignificance": "The visual soul of Kerala's spiritual and royal heritage. These paintings are considered sacred spaces that bridge the gap between the earthly and divine realms, and they remain central to the region's cultural identity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 10.5276, "lng": 76.2144 },
+    "medium": "Natural pigments on fresco"
+  },
+  {
+    "id": "kavad",
+    "name": "Kavad Art",
+    "state": "Rajasthan",
+    "region": "West",
+    "shortDescription": "Portable wooden storytelling shrines with multiple panels that unfold like a book.",
+    "detailedDescription": "Kavad is a unique 400-year-old storytelling tradition from the Bassi region of Rajasthan. It involves a wooden box (kavad) that opens into multiple folding panels, each painted with intricately detailed scenes from the epics like the Ramayana and Mahabharata. The Kavad acts as a portable temple, carried by traditional storytellers known as 'Kavadia Bhattas'. As the storyteller narrates the tales, he sequentially opens the panels, revealing new chapters of the story and guiding the audience through a visual journey. The boxes are usually made of light wood like mango or arad and are painted with vibrant natural colors. Historically, the paintings served as visual aids for religious education and moral storytelling for rural communities. The entire process of crafting and narrating with a Kavad is deeply ritualistic, reflecting the rich oral traditions and spiritual life of the Rajasthani people. It is a brilliant example of a three-dimensional narrative art that combines carpentry, painting, and performance into a single, compact masterpiece.",
+    "history": "Developed by the Suthar community of Bassi, the Kavad was traditionally commissioned by families as a form of religious merit. It has survived as a rare example of Rajasthani folk storytelling, adapting to modern times while keeping its traditional narrative structure intact.",
+    "materialsUsed": ["Mango wood", "Natural pigments", "Wheat starch", "Glue", "Fine brushes"],
+    "culturalSignificance": "A vital bridge between the sacred and the mundane for rural populations. It serves as a tool for visual literacy and spiritual guidance, embodying the essence of community storytelling and oral tradition.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 24.8794, "lng": 74.6214 },
+    "medium": "Painted wood panels"
+  },
+  {
+    "id": "dokra",
+    "name": "Dokra Art",
+    "state": "West Bengal",
+    "region": "East",
+    "shortDescription": "Ancient non-ferrous metal casting using the lost-wax technique, known for its rustic charm.",
+    "detailedDescription": "Dokra is an ancient form of metal casting using the lost-wax (cire perdue) technique, practiced by the nomadic and tribal communities of West Bengal, Odisha, and Chhattisgarh for over 4,000 years. The name comes from the 'Dhokra Damar' tribes, the traditional metal smiths of the regions. The process is incredibly complex and entirely handmade, involving a clay core, followed by a layer of wax threads that create the intricate patterns, which is then covered by more clay before molten metal is poured in. Every piece is unique because the mold must be broken to reveal the final object. Dokra art is characterized by its rustic, earthy look and fine detailing with wire-like threads of bronze and brass. The motifs often include tribal deities, animals like horses and elephants, and scenes of daily tribal life. It is one of the oldest forms of continuous metalworking in the world, reflecting the deep technical knowledge and artistic resilience of Central and Eastern Indian tribal cultures.",
+    "history": "With its origins tracing back to the Indus Valley Civilization (as seen in the famous 'Dancing Girl' figurine), Dokra represents one of the oldest living craft traditions in the world. It has survived through the oral transmission of knowledge within tribal clans for millennia.",
+    "materialsUsed": ["Bronze/Brass", "Wax threads", "Clay", "Charcoal", "Natural resins"],
+    "culturalSignificance": "A symbol of the ancient civilizational roots of tribal India. It represents the masterful blending of technical alchemy and artistic expression, serving as a vital link to our prehistoric past.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.2437, "lng": 87.0633 },
+    "medium": "Mixed non-ferrous metal casting"
+  },
+  {
+    "id": "lippankaam",
+    "name": "Lippan Kaam",
+    "state": "Gujarat",
+    "region": "West",
+    "shortDescription": "Mud and mirror relief work from Kutch, traditionally used to decorate the walls of bhungas.",
+    "detailedDescription": "Lippan Kaam is an ancient mud-relief art form practiced by the tribal communities of the Kutch region in Gujarat, particularly the Rabari and Mutwa tribes. Traditionally used to decorate the interior and exterior walls of 'Bhungas' (traditional circular mud huts), the art serves both an aesthetic and functional purpose—the mirrors in the patterns reflect the faint light inside the huts, and the mud maintains a cool temperature in the desert heat. The process involves creating a mixture of clay (kamand mud) and camel dung, which is then hand-applied to create intricate relief patterns of flowers, animals, and geometric shapes. Mirrors (abhla) of various sizes are embedded within the mud work, creating a shimmering, jewel-like effect. Historically, it was a domestic art practiced by mothers and daughters. Today, it has moved from mud walls to canvas and board, gaining global recognition for its unique blend of rustic texture and shimmering elegance, capturing the soul of the White Desert of Kutch.",
+    "history": "Deeply rooted in the nomadic life of the Kutch tribes, Lippan Kaam has evolved from a functional interior decoration to a highly valued architectural and decorative art form. It represents the resourceful creativity of people living in extreme desert environments.",
+    "materialsUsed": ["Mud/Clay", "Camel dung", "Mirrors (Abhla)", "Water", "Glue"],
+    "culturalSignificance": "An embodiment of the Kutch region's aesthetic and environmental wisdom. It symbolizes prosperity and protection, and it is an integral part of the tribal community's identity and architectural heritage.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.2423, "lng": 69.6669 },
+    "medium": "Mud relief with mirror work"
+  },
+  {
+    "id": "manjusha",
+    "name": "Manjusha Art",
+    "state": "Bihar",
+    "region": "East",
+    "shortDescription": "Sequential scroll painting from the Angika region, known for its yellow and green palette.",
+    "detailedDescription": "Manjusha art is a traditional folk art form from the Angika region of Bihar (present-day Bhagalpur district). It is unique for being a sequential art form, historically used to decorate the 'Manjushas' (oblong boxes) used in the 'Bishahari' or 'Manasa Puja' festivals. The art revolves around the folk tale of Bihula-Bishahari, depicting the life of the snake goddess Manasa and the journey of Bihula to save her husband. A striking characteristic of Manjusha art is its limited color palette—predominantly yellow (the background), bright red, and green. The figures are stylized with a certain linear simplicity, often shown in profile with large eyes. Historically, the art was practiced by a specialized group of families, and it were considered a visual prayer for protection against snake bites and for the well-being of the family. It is one of the oldest narrative art traditions of India, distinct for its folk character and mythological roots, representing the rich cultural heritage of the ancient Anga kingdom.",
+    "history": "Dating back over a millennium, Manjusha art is deeply linked to the local myths of the Bhagalpur region. After nearly being lost, it has seen a vibrant revival in recent decades through state-supported initiatives and active community participation.",
+    "materialsUsed": ["Handmade paper", "Natural dyes", "Bamboo twigs", "Fabric", "Tamarind seed paste"],
+    "culturalSignificance": "A vital storytelling medium for local myths and feminine resilience. The art is central to regional religious festivals and serves as a badge of cultural pride for the Angika-speaking people.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 25.2425, "lng": 87.0169 },
+    "medium": "Natural colors on paper"
+  },
+  {
+    "id": "sohrai",
+    "name": "Sohrai Art",
+    "state": "Jharkhand",
+    "region": "East",
+    "shortDescription": "Mural art from Hazaribagh, celebrating the harvest festival with bold earth colors.",
+    "detailedDescription": "Sohrai art is a ritualistic mural and scroll art practiced by tribal women in the Hazaribagh district of Jharkhand. It is intrinsically linked to the Sohrai festival, which celebrates the harvest and expresses gratitude to cattle and the earth. The art is characterized by its bold use of earth colors—red, black, yellow, and white—derived from different types of soil and minerals. The motifs are deeply inspired by the jungle environment, featuring stylized birds, animals (especially the hump-backed bull), and intricate floral patterns. Traditionally, these paintings are made on the mud walls of village huts using combs, fingers, or small pieces of cloth. The style is rhythmic and organic, reflecting a deep respect for the natural world and the cycle of nature. In 2020, Sohrai and Khovar arts were granted a Geographical Indication (GI) status, recognizing their unique cultural value and protecting the intellectual property of the tribal communities. Today, these vibrant earth paintings are moving from walls to canvas, bringing the spirit of the Jharkhand hills to the global art stage.",
+    "history": "Origins of Sohrai and Khovar are believed to date back to prehistoric times, as many of the motifs seen in modern murals can be found in nearby rock shelters. It represents an unbroken tradition of tribal aesthetic that has survived for millennia.",
+    "materialsUsed": ["Natural soil", "Clay", "Pebbles", "Hand-made brushes", "Rice water"],
+    "culturalSignificance": "A symbol of gratitude and harmony with nature. It is used to sanctify homes and celebrate the harvest, serving as a medium for community expression and spiritual connection to the environment.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.9936, "lng": 85.3622 },
+    "medium": "Earth colors on mud wall"
+  },
+  {
+    "id": "khovar",
+    "name": "Khovar Art",
+    "state": "Jharkhand",
+    "region": "East",
+    "shortDescription": "Marriage mural art from Hazaribagh, featuring comb-cut black and white patterns.",
+    "detailedDescription": "Khovar is a traditional mural art form from the Hazaribagh district of Jharkhand, traditionally practiced during the wedding season (Khovar literally means 'bridal room'). It is a form of comb-cut or sgraffito art, where a layer of black mud is applied to the wall, followed by a layer of light-colored cream or white clay. While the top layer is still wet, the artist uses a comb or four fingers to 'cut' out the light clay, revealing the dark black layer beneath. The motifs are deeply connected to fertility and marriage, featuring auspicious animals, plants, and geometric patterns. The art form is purely feminine, passed down from mother to daughter. The high contrast of black and white creates a striking visual impact, symbolizing the duality of life and the sanctity of the domestic space. Along with Sohrai, Khovar received GI status in 2020, ensuring the preservation of this unique tribal tradition that bridges prehistoric aesthetics with modern community life.",
+    "history": "Like Sohrai, Khovar art is rooted in the ancient cave art traditions of the region. It has served as a vital part of tribal marriage customs for centuries, representing the sacredness of the home and the union of two people.",
+    "materialsUsed": ["Black mud", "White clay", "Combs", "Water", "Bamboo sticks"],
+    "culturalSignificance": "A celebration of domesticity and fertility. It is used to bless the bridal chamber and the new family, embodying the communal spirit and artistic resilience of the Jharkhand tribal people.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 24.2000, "lng": 85.50000 },
+    "medium": "Comb-cut mud on wall"
+  },
+  {
+    "id": "kasuti",
+    "name": "Kasuti Embroidery",
+    "state": "Karnataka",
+    "region": "South",
+    "shortDescription": "Intricate folk embroidery from Karnataka, known for its geometric patterns and thread-counting precision.",
+    "detailedDescription": "Kasuti is a traditional form of embroidery found in the state of Karnataka, particularly in the Dharwad, Bijapur, and Belgaum districts. The word 'Kasuti' is derived from 'Kai' (hand) and 'Suti' (cotton), referring to work done with cotton thread. It is a highly meticulous and geometric art form, where the patterns are created by counting the threads of the fabric. No tracing or marking is used, and the work is often reversible, with no visible knots. The motifs are deeply symbolic, featuring traditional symbols like the temple (Gopura), lotus, peacock, and elements of daily life. Historically, Kasuti was a domestic art practiced by women to decorate their 'Ilkal' sarees and other garments for weddings and festivals. The colors used are usually bright and contrasting against a dark fabric. It represents the pinnacle of patient craftsmanship and aesthetic discipline in South Indian folk textile traditions, requiring thousands of stiches and months of dedicated effort to complete a single piece.",
+    "history": "Dating back to the Chalukya period (6th-12th century), Kasuti has been a vital part of Karnataka's textile heritage for over a millennium. It was once a prerequisite for every bride to know before her wedding, representing her skill and domestic virtues.",
+    "materialsUsed": ["Cotton thread", "Silk fabric", "Fine needles", "Embroidery hoops", "Thread counters"],
+    "culturalSignificance": "A symbol of womanhood and cultural identity. It represents the patient's dedication and the transmission of traditional aesthetic values through generations of female artisans.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 15.4589, "lng": 75.0078 },
+    "medium": "Hand embroidery on fabric"
+  },
+  {
+    "id": "chambarumal",
+    "name": "Chamba Rumal",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "shortDescription": "Exquisite embroidered handkerchiefs from Chamba, often called 'paintings in needlework'.",
+    "detailedDescription": "Chamba Rumal is a rare and exquisite form of embroidery originating from the Chamba kingdom of Himachal Pradesh. These 'embroidered handkerchiefs' (rumals) are world-renowned for their delicate craftsmanship and are often called 'paintings in needlework'. The art form developed in the 18th century, influenced by the Kangra and Basholi miniature painting styles. The scenes depicted are often mythological, featuring the life of Krishna, the Rasalila, and stories from the epics. The most unique feature is the 'do-rukha' (double-sided) stitch, where the embroidery appears identical on both sides of the cloth, with no knots or loose threads visible. Traditionally, the base cloth is unbleached muslin, and the threads are naturally dyed silk. The compositions are highly sophisticated, following the aesthetic principles of Pahari miniatures. Once a symbol of royal status and a favorite gift in Himachali weddings, the Chamba Rumal is now a protected Geographical Indication (GI), recognized as one of India's most important textile heritage crafts.",
+    "history": "The art form reached its peak under the patronage of Raja Umed Singh of Chamba. It represents a unique synthesis of painting and embroidery, where the master painters of the court first drew the designs before the women of the palace embroidered them. Its historical significance is such that it was once a staple of the royal gifts exchanged between kingdoms.",
+    "materialsUsed": ["Unbleached muslin", "Silk thread", "Natural dyes", "Needles", "Wooden frames"],
+    "culturalSignificance": "A symbol of the high culture and artistic synthesis of the Himalayan kingdoms. It represents the pinnacle of North Indian textile art and remains a vital part of Chamba's cultural and historical identity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 32.5534, "lng": 76.1258 },
+    "medium": "Needlework on fine muslin"
+  }
+]

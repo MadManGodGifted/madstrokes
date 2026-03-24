@@ -1,0 +1,28 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  {/* Background with texture effect */}
+  <rect width="800" height="800" fill="#FDFCF8"/>
+  <defs>
+    <pattern id="canvas-texture" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20L40 20M20 0L20 40" stroke="#EAE6DA" stroke-width="0.5"/>
+    </pattern>
+    
+    {/* Block Print Mandala Pattern */}
+    <pattern id="mandala-pattern" width="200" height="200" patternUnits="userSpaceOnUse">
+      <g opacity="0.1">
+        <circle cx="100" cy="100" r="80" stroke="#D2691E" stroke-width="1"/>
+        <path d="M100 20L110 50L140 60L110 70L100 100L90 70L60 60L90 50L100 20Z" fill="#D2691E"/>
+        <circle cx="100" cy="100" r="40" stroke="#2C3E50" stroke-width="0.5" stroke-dasharray="2 2"/>
+      </g>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#canvas-texture)"/>
+  <rect width="800" height="800" fill="url(#mandala-pattern)"/>
+  
+  {/* Central Artistic Element */}
+  <g transform="translate(400, 350)">
+    <path d="M0 -100C30 -80 50 -40 50 0C50 40 30 80 0 100C-30 80 -50 40 -50 0C-50 -40 -30 -80 0 -100Z" fill="#D2691E" fill-opacity="0.03" stroke="#D2691E" stroke-width="1" stroke-opacity="0.2"/>
+    <path d="M-20 -20L20 -20L20 20L-20 20Z" fill="none" stroke="#D2691E" stroke-width="1" stroke-opacity="0.4" transform="rotate(45)"/>
+    <text y="150" text-anchor="middle" fill="#2C3E50" font-family="serif" font-size="20" opacity="0.3" letter-spacing="0.2em">HERITAGE PREVIEW</text>
+  </g>
+</svg>

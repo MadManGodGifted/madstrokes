@@ -1,0 +1,182 @@
+[
+  {
+    "id": "mysore",
+    "name": "Mysore Painting",
+    "state": "Karnataka",
+    "region": "South",
+    "shortDescription": "Classical South Indian painting known for its elegance, muted colors, and delicate gold leaf work.",
+    "detailedDescription": "Mysore painting is an important form of classical South Indian painting that originated in and around the town of Mysore in Karnataka. It evolved from the same roots as Tanjore painting but is distinguished by its subtle colors and use of 'Gesso' work that is less pronounced. The art form reached its peak under the patronage of the Wadiyar dynasty. The themes are primarily Hindu gods and goddesses, and scenes from the epics. The process involves multiple stages, including the preparation of a wooden board, sketching, and the application of gold leaf. Unlike Tanjore paintings, Mysore paintings use thinner gold foil and are known for their delicate lines and intricate brushwork, giving the figures a soft, divine grace. The painters use natural colors derived from plants and minerals. The art is not just a decorative or religious object but a symbol of the sophisticated cultural synthesis and royal aesthetics of the Mysore kingdom, reflecting a tradition of academic precision and spiritual depth.",
+    "history": "Following the fall of the Vijayanagara Empire, many artists migrated to Mysore, where they were patronized by Raja Wadiyar. The school of Mysore artists flourished for centuries, creating a distinct visual language that combined traditional Indian iconography with regional artistic sensibilities.",
+    "materialsUsed": ["Wooden plank", "Handmade paper", "Gold foil", "Zinc white", "Arabic gum"],
+    "culturalSignificance": "A representation of the royal heritage of Karnataka. These paintings are valued for their spiritual content and were traditionally commissioned for palace interiors and elite homes as sacred icons.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 12.2958, "lng": 76.6394 },
+    "medium": "Watercolors and gold leaf on board"
+  },
+  {
+    "id": "kangra",
+    "name": "Kangra Painting",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "shortDescription": "Lyrical Pahari painting style known for its delicate lines and romantic depictions of Radha-Krishna.",
+    "detailedDescription": "Kangra painting is the pictorial art of the Kangra Valley and one of the finest schools of Himalayan (Pahari) painting. It became prevalent in the late 18th century after the decline of the Basohli school. The art is synonymous with lyrical beauty, delicate brushwork, and a rhythmic use of line. The main theme is 'Shringara' or the sentiment of love, predominantly featuring Radha and Krishna. The artists used a palette of soft, natural colors derived from minerals and plants, which have retained their brilliance for centuries. The landscapes of the Kangra Valley—its lush green hills, flowing streams, and flowering trees—are often used as backdrops, creating a sense of harmony between the lovers and nature. Kangra paintings are small in size (miniatures) but immense in their emotional depth and technical finesse. They represent the pinnacle of Indian miniature painting, characterized by an elegance that is almost poetic in its quality.",
+    "history": "Under the patronage of Maharaja Sansar Chand, the Kangra school flourished into a highly sophisticated art form. It was influenced by the Mughal style but developed a unique romanticism that captured the spirit of the Himalayan foothills.",
+    "materialsUsed": ["Handmade paper", "Natural pigments", "Fine squirrel hair brushes", "Gold dust", "Gum arabic"],
+    "culturalSignificance": "A symbol of the devotional 'Bhakti' movement in Northern India. It celebrates the divine love of Radha-Krishna and remains a cornerstone of Himachali cultural and artistic identity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 32.1024, "lng": 76.2734 },
+    "medium": "Natural pigments on paper"
+  },
+  {
+    "id": "basholi",
+    "name": "Basholi Painting",
+    "state": "Jammu & Kashmir",
+    "region": "North",
+    "shortDescription": "Vibrant and intense early Pahari style with bold colors and beetle-wing embellishments.",
+    "detailedDescription": "Basohli painting is the oldest school of Pahari miniature painting, originating in the hill state of Basohli in present-day Jammu and Kashmir. It is known for its intense colors, bold lines, and powerful emotional expression. Unlike the later Kangra style, Basohli is characterized by a certain primitive vigor and large, expressive eyes. A unique feature is the use of the shiny green shards from the wings of beetles to represent emeralds in jewelry. The themes are often from the 'Rasamanjari' (the 'delight of rasa' or aesthetic emotion) and the 'Gita Govinda'. The primary colors used are deep red, yellow, and blue, creating a vibrant and dramatic effect. The style represents the early, robust phase of Himalayan art, characterized by a simplicity that belies its sophisticated understanding of composition and color. It is a vital link to the ancient indigenous traditions of the region, predating the more refined Mughal-influenced Pahari styles.",
+    "history": "The school was established in the mid-17th century under Raja Kirpal Pal. It is considered the 'primal' school of Pahari painting, laying the foundation for many other styles that later emerged in the Punjab and Himachal hills.",
+    "materialsUsed": ["Handmade paper", "Beetle wings", "Natural pigments", "Gold and silver dust", "Fine brushes"],
+    "culturalSignificance": "A bold testament to the artistic spirit of the Jammu region. It is celebrated for its unique use of natural materials and its raw, emotional approach to mythological themes.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 32.5024, "lng": 75.8118 },
+    "medium": "Natural pigments with beetle wings on paper"
+  },
+  {
+    "id": "thangka",
+    "name": "Thangka Painting",
+    "state": "Sikkim",
+    "region": "East",
+    "shortDescription": "Tibetan Buddhist scroll painting depicting deities, mandalas, and scenes from Buddhist philosophy.",
+    "detailedDescription": "Thangka is a traditional Tibetan Buddhist painting on cotton or silk appliqué, usually depicting a Buddhist deity, scene, or mandala. It is a highly ritualized and precise art form, common in regions like Sikkim, Ladakh, and Arunachal Pradesh. Each Thangka is not just a piece of art but a tool for meditation and teaching. The proportions of the deities are strictly defined by iconography and must be followed exactly. The process begins with stretching a cotton canvas and treating it with a mixture of lime and glue. The artist then sketches the grid and the figures before applying vibrant natural colors and gold. Thangkas are often mounted in colorful silk brocade. They serve as objects of worship and are carried in processions or hung on temple walls. The art requires years of training and a deep understanding of Buddhist philosophy, as every color, posture, and symbol holds a profound spiritual meaning, aimed at guiding the viewer toward enlightenment.",
+    "history": "The tradition came to the Himalayan regions along with Buddhism. It has been preserved in monasteries by monk-artists for over a millennium, serving as a vital medium for transmitting the Dharma through visual imagery.",
+    "materialsUsed": ["Cotton or silk", "Natural minerals", "Gold", "Silk brocade", "Glue from animal hide"],
+    "culturalSignificance": "The soul of Tibetan Buddhist visual culture. Thangkas are considered living objects of devotion and are essential for the spiritual life of the Himalayan and Buddhist communities.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 27.3314, "lng": 88.6138 },
+    "medium": "Natural pigments on fabric"
+  },
+  {
+    "id": "aipan",
+    "name": "Aipan",
+    "state": "Uttarakhand",
+    "region": "North",
+    "shortDescription": "Ritualistic folk art from Kumaon, featuring geometric patterns drawn in white on red ochre.",
+    "detailedDescription": "Aipan is a traditional ritualistic folk art of the Kumaon region in Uttarakhand. It is primarily practiced by Women, who decorate the floors and walls of their homes during festivals, weddings, and ceremonies. The art is characterized by the use of 'Biswar' (rice paste) on a background of 'Geru' (red ochre). The motifs are deeply symbolic, featuring geometric patterns, flowers, and figures of deities. Each pattern, known as a 'Chowki', is used for a specific religious occasion—some for birth, some for marriage, and others for honoring specific gods like Shiva or Lakshmi. The art is not just decorative; it is believed to bring good luck and ward off evil. The practice of Aipan is passed down from mother to daughter, preserving a rich heritage of local spirituality and aesthetic taste. Recently, it has transitioned from traditional mud floors to modern products like cards and wall hangings, gaining recognition as a symbol of Kumaoni cultural identity.",
+    "history": "Aipan has been a part of Kumaoni life for generations, rooted in the ancient agrarian rituals of the Himalayan foothills. It represents a living tradition of domestic sanctification and communal celebration.",
+    "materialsUsed": ["Red ochre (Geru)", "Rice paste (Biswar)", "Cotton or fingers for drawing", "Water"],
+    "culturalSignificance": "A vital part of every Kumaoni ritual. It serves as a visual prayer and a way to create a sacred space within the home for various domestic and community celebrations.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 29.3710, "lng": 79.4842 },
+    "medium": "Rice paste on red ochre base"
+  },
+  {
+    "id": "alpana",
+    "name": "Alpana",
+    "state": "West Bengal",
+    "region": "East",
+    "shortDescription": "White ritualistic floor patterns using rice paste, common in Bengali celebrations.",
+    "detailedDescription": "Alpana is the ritualistic folk art of Bengal, particularly practiced during the 'Vrata' (ritual fasts) performed by women. It is a form of rangoli but is distinct in its use of a liquid paste made from sun-dried rice. The patterns are usually circular and represent a variety of motifs like the lotus, sun, fish, and footprints of Goddess Lakshmi (Lakshir Pa). Alpana is not just an aesthetic expression but a visual representation of a prayer or a desire. It is used to decorate thresholds, courtyards, and floors of prayer rooms. The process involves soaking rice in water, grinding it into a fine paste, and applying it with the fingers or a small piece of cloth. The designs are often incredibly intricate and fluid, reflecting the artistic sensibility and domestic devotion of the Bengali people. During the Durga Puja and Lakshmi Puja, the streets and houses of Bengal are covered in these beautiful white patterns, symbolizing a warm welcome to the divine.",
+    "history": "Alpana has its roots in pre-Aryan traditions and has been mentioned in early Sanskrit literature. It represents a continuous tradition of Bengali folk culture that has survived and flourished through centuries of social changes.",
+    "materialsUsed": ["Rice paste", "Water", "Cotton cloth", "Fingers"],
+    "culturalSignificance": "A symbol of auspiciousness and welcoming. It is an integral part of 'Vrata' rituals and serves as a medium for women to express their spiritual hopes and communal solidarity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 22.5726, "lng": 88.3639 },
+    "medium": "Rice paste on floor"
+  },
+  {
+    "id": "saura",
+    "name": "Saura Art",
+    "state": "Odisha",
+    "region": "East",
+    "shortDescription": "Tribal wall paintings from Odisha, visually similar to Warli but with distinct motifs.",
+    "detailedDescription": "Saura painting is a style of wall mural art associated with the Saura tribes of Odisha. While it bears a striking visual resemblance to Warli art of Maharashtra, it has its own unique motifs and symbolic meaning. Traditionally, these paintings, known as 'Ikons', are dedicated to 'Idital', the main deity of the Sauras, and are painted at the back of the house. The art is a visual prayer used to appease the gods and spirits. The scenes often depict life in the jungle, farming, hunting, and community festivals. A key distinction is the absence of a distinct 'circle' for the sun and 'triangle' for the moon in Saura art, which instead uses more fluid and organic shapes. The figures are often shown with bows and arrows, riding horses or elephants. The art is created using natural white pigment from rice or lime on an ochre backround. It represents the tribe's deep spiritual connection to their environment and ancestors, serving as a bridge between the physical and spirit worlds.",
+    "history": "Saura art has been practiced by the Saura tribe, one of the oldest in India, for centuries. It was traditionally a form of shamanistic ritual, used to heal the sick and bring prosperity to the clan.",
+    "materialsUsed": ["Rice paste", "Yellow ochre", "Red earth", "Bamboo brushes", "Geru backround"],
+    "culturalSignificance": "A way to connect with the spiritual realm. The paintings are considered sacred objects that protect the community and honor the cycle of life and death within the tribal world.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 19.3149, "lng": 84.7941 },
+    "medium": "Rice paste on ochre wall"
+  },
+  {
+    "id": "santhal",
+    "name": "Santhal Art",
+    "state": "West Bengal",
+    "region": "East",
+    "shortDescription": "Vibrant tribal paintings of the Santhal people, celebrating nature and social life.",
+    "detailedDescription": "Santhal painting is a traditional art form of the Santhal tribe, one of the largest tribal communities in India, found primarily in Jharkhand, West Bengal, and Odisha. The art is characterized by its vibrant use of color and a focus on community life, music, and dance. Unlike many other folk arts that are purely religious, Santhal paintings often celebrate the joy of life, depict local festivals, and show humans in harmony with nature. The style is bold, with large figures and a certain rhythmic quality that reflects the tribe's love for music and group dancing. Traditionally, these paintings were made on the mud walls of their houses using natural colors. The motifs often include birds, animals, flowers, and the traditional Santhal drum. The art represents a resilient and joyful cultural identity, capturing the essence of the tribal spirit through a visual language that is both simple and profoundly expressive.",
+    "history": "Santhal art has been an integral part of the tribe's social and community life for generations. It gained wider recognition during the Indian independence movement as a symbol of indigenous identity and has since influenced modern Indian artists like Nandalal Bose.",
+    "materialsUsed": ["Natural pigments", "Soil", "Cow dung", "Plant extracts", "Brushes from twigs"],
+    "culturalSignificance": "A celebration of community and nature. It serves as a visual record of the tribe's folklore and social customs, emphasizing the importance of collective joy and environmental respect.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.9000, "lng": 87.5000 },
+    "medium": "Natural pigments on mud/paper"
+  },
+  {
+    "id": "rogan",
+    "name": "Rogan Art",
+    "state": "Gujarat",
+    "region": "West",
+    "shortDescription": "Unique textile art from Kutch, using boiled castor oil and pigments to create 3D patterns.",
+    "detailedDescription": "Rogan painting is a rare and traditional textile art from the Kutch district of Gujarat. The word 'Rogan' is Persian for oil-based. This incredible craft involves the use of a thick, gooey paste made from boiled castor oil mixed with natural pigments. The artist at first boils the oil for two days until it reaches the desired consistency. The resulting paste is then applied to fabric using a metal stylus (pen). A unique feature of Rogan art is that the design is often created on one half of the fabric, which is then folded onto the other half to create a mirror image while the paste is still wet. The designs are predominantly geometric and floral, with the 'Tree of Life' being a popular motif. The process is extremely labor-intensive and requires immense control and patience. For a long time, the Khatri family of Nirona village were the sole custodians of this craft, which had nearly died out before receiving national and international acclaim, including being presented as a gift by the Prime Minister of India to global leaders.",
+    "history": "Tracing its roots back several centuries to Persia, the art was brought to the Kutch region where it was adapted by local craftsmen. It was nearly extinct by the 1980s but has seen a miraculous revival thanks to the dedicated efforts of the Gafurbhai Khatri family.",
+    "materialsUsed": ["Castor oil", "Natural pigments", "Metal stylus", "Fabric (cotton/silk)", "Water"],
+    "culturalSignificance": "A symbol of artisanal resilience and rare craft heritage. It represents the sophisticated understanding of chemical processes and artistic precision within the rural Indian artisan community.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.3601, "lng": 69.5886 },
+    "medium": "Castor oil based paint on fabric"
+  },
+  {
+    "id": "matanipachedi",
+    "name": "Mata ni Pachedi",
+    "state": "Gujarat",
+    "region": "West",
+    "shortDescription": "Sacred textile art of Ahmedabad, depicting the Mother Goddess on hand-painted cloths.",
+    "detailedDescription": "Mata ni Pachedi is a traditional sacred textile art form originating from Gujarat, literally meaning 'that which enshrines the Mother Goddess'. It is practiced by the nomadic Vaghari community and is often referred to as the 'Kalamkari of Gujarat'. Originally, because the untouchable Vaghari community was not allowed to enter temples, they created their own portable shrines by painting cloths with images of the Mother Goddess. The art is characterized by a central figure of the Goddess, surrounded by scenes of worship, animals, and mythological stories. The process involves hand-painting and block printing using natural dyes on hand-spun cotton. The primary colors used are red (representing the earth), black (to ward off evil), and white (symbolizing purity). Each piece is a sacred object, used as a backdrop in community rituals and shrines. It is a powerful example of how art can serve as a medium for spiritual expression and social identity in the face of exclusion.",
+    "history": "With origins dating back about 300 years, the art form emerged from the religious needs of a marginalized community. It has evolved from a simple functional object into a highly valued textile tradition, recognized for its narrative depth and technical skill.",
+    "materialsUsed": ["Cotton cloth", "Natural dyes (madder, indigo)", "Bamboo pen", "Wooden blocks", "Alum"],
+    "culturalSignificance": "A sacred medium for worship and community identity. It represents the indomitable spirit of the Vaghari community and their deep devotion to the feminine divine.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 23.0225, "lng": 72.5714 },
+    "medium": "Natural dyes on hand-painted cloth"
+  }
+]

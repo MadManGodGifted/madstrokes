@@ -1,0 +1,182 @@
+[
+  {
+    "id": "warli",
+    "name": "Warli Art",
+    "state": "Maharashtra",
+    "region": "West",
+    "shortDescription": "Tribal art characterized by simple geometric shapes and nature-centric themes.",
+    "detailedDescription": "Warli painting is a tribal art form created primarily by the Warli people, one of India's largest tribes, residing in the North Sahyadri Range of Maharashtra. This art form, considered one of the oldest in India, dates back as early as the 10th century CE, and some researchers suggest its origins could be as old as 2500 to 3000 BCE, resembling prehistoric cave paintings. Unlike other forms of Indian folk art, Warli painting does not use religious iconography of gods but rather represents nature as a divine entity, highlighting human dependence on it. The paintings are typically done on mud walls of village huts using basic geometric shapes: circles representing the sun and moon, triangles depicting mountains and conical trees, and squares indicating a sacred enclosure or land. Historically, it was a women's art form, practiced during festivals, weddings, and harvest celebrations. The art gained global recognition in the 1970s, largely due to visionary artists like Jivya Soma Mashe who transitioned the art from walls to paper and canvas, preserving this ancient lineage for modern generations.",
+    "history": "The history of Warli art is deeply rooted in the tribal traditions of the North Sahyadri Range. Traditionally, the paintings were made by women as part of community rituals on the walls of their 'Bhungas' (circular mud houses). It remained a local secret until the late 20th century when it was brought to the global stage as a significant folk art tradition.",
+    "materialsUsed": ["Rice paste", "Water", "Red ochre background", "Bamboo sticks", "Gum as binder"],
+    "culturalSignificance": "Warli culture centers on the concept of Mother Nature. The paintings depict daily life, farming, and community rituals, serving as a medium for social expression and cultural transmission across generations.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 19.9975, "lng": 73.2361 },
+    "medium": "Rice paste on red ochre base"
+  },
+  {
+    "id": "madhubani",
+    "name": "Madhubani Painting",
+    "state": "Bihar",
+    "region": "East",
+    "shortDescription": "Bright, colorful folk art done with fingers and twigs, depicting mythological scenes.",
+    "detailedDescription": "Madhubani painting, also known as Mithila art, originates from the Mithila region of Bihar and Nepal. Historically, it was a women's art form, practiced on freshly plastered mud walls and floors during festivals, weddings, and ceremonies. The art is characterized by its eye-catching geometrical patterns and is often used to decorate walls of houses and floors of ceremonies to bring peace and prosperity. The paintings are deeply symbolic, depicting Hindu mythology with deities like Krishna, Shiva, Durga, and Saraswati, as well as scenes from the Ramayana and Mahabharata. Nature, with motifs of birds, fish, flowers, and trees, is also central, representing harmony, fertility, and prosperity. The art form played a role in conservation efforts in Bihar in 2012, with local painters depicting religious images on trees to deter deforestation. Madhubani painting has received Geographical Indication (GI) status, indicating its origin and traditional knowledge. It remains one of the most recognizable and vibrant expressions of Indian folk heritage, bridging the gap between ancient ritual and modern decorative art.",
+    "history": "Origins are believed to date back to the Ramayana period, when King Janaka commissioned paintings for the wedding of his daughter Sita. It was first 'discovered' by the outside world in 1934 by a British colonial officer after an earthquake revealed the interior wall paintings. Since then, it has evolved from domestic decoration to a global art form.",
+    "materialsUsed": ["Natural dyes", "Handmade paper", "Twigs", "Matchsticks", "Nib-pens"],
+    "culturalSignificance": "Deeply symbolic, depicting Hindu mythology and nature motifs representing harmony. It provided women with spiritual and economic agency in a traditional society, acting as a visual prayer for prosperity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1615486511484-90e060012c8e?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 26.3467, "lng": 86.0768 },
+    "medium": "Natural dyes on handmade paper"
+  },
+  {
+    "id": "gond",
+    "name": "Gond Art",
+    "state": "Madhya Pradesh",
+    "region": "Central",
+    "shortDescription": "Intricate dot and line patterns depicting the interconnectedness of all living things.",
+    "detailedDescription": "Gond painting is a renowned folk art of the Gond tribal community, one of the largest tribes in India, predominantly from the green mountains of Madhya Pradesh. The history of the Gond people spans nearly 1400 years, with their art form tracing its lineage back to the Mesolithic Period. Traditionally, Gond art was painted on the mud walls of village homes to bring good luck. It is characterized by mystical motifs, intricate patterns of dots and lines, and vibrant colors. Each motif holds symbolic meaning: trees represent life and fertility, animals symbolize strength and companionship, and fish signify good fortune. The transformation of Gond art from a community practice to an internationally recognized art form began in the 1980s, largely due to the artist Jangarh Singh Shyam, who was the first to use paper and canvas. The art reveals the tribe's deep connection to nature, spiritual beliefs, and folklore, narrating myths and stories of everyday life through a unique rhythmic style that captures the eye and the spirit.",
+    "history": "Tracing its lineage back nearly 1400 years, Gond art was traditionally practiced on mud walls to celebrate nature and spirits. It transitioned to contemporary mediums in the 1980s, bringing the tribe's mystical folklore to the international art market while maintaining its traditional symbolic language.",
+    "materialsUsed": ["Plant sap", "Cow dung", "Charcoal", "Soil", "Natural minerals"],
+    "culturalSignificance": "Reflects the tribe's belief that everything is inhabited by a spirit. It serves as a reservoir for tribal heritage, narrating stories that emphasize the balance between human beings and the natural world.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 22.9734, "lng": 78.6569 },
+    "medium": "Natural colors on canvas"
+  },
+  {
+    "id": "pattachitra",
+    "name": "Pattachitra",
+    "state": "Odisha",
+    "region": "East",
+    "shortDescription": "Devotional cloth-based scroll painting with incredible detail and mythological stories.",
+    "detailedDescription": "Pattachitra is an ancient, traditional cloth-based scroll painting art form originating from the eastern Indian states of Odisha and West Bengal. Link to the devotional practices of the Jagannath Temple in Puri, these paintings function as visual scriptures. The style is characterized by fine lines, bold borders, and a highly structured composition where every inch of the canvas is filled with detail. Historically created by a community of specialized artisans called Chitrakars, the process is meticulous, involving the preparation of a handmade canvas from cloth coated with a mixture of chalk and tamarind gum. Natural colors are extracted from minerals and plants, such as red from hingula and black from burnt coconut shells. The paintings primarily narrate mythological tales from the Ramayana, Mahabharata, and stories of Lord Jagannath, preserving oral traditions in a visual format that is both a spiritual practice and a masterpiece of craftsmanship. Each piece is a testament to the artist's dedication and the deep-seated religious culture of the region.",
+    "history": "Dating back over a millennium to the 5th century AD, Pattachitra is closely linked to the Jagannath cult in Puri. Traditionally, these paintings serve as sacred substitutes for idols during certain temple rituals, reflecting a centuries-old tradition of devotional storytelling through art.",
+    "materialsUsed": ["Handmade canvas", "Tamarind gum", "Chalk", "Stone minerals", "Burned coconut shells"],
+    "culturalSignificance": "Primarily narrates mythological tales and functions as visual scriptures. It is a deeply devotional practice where the artist treats the creation process as a form of spiritual worship and cultural preservation.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 19.8135, "lng": 85.8312 },
+    "medium": "Natural colors on treated cloth"
+  },
+  {
+    "id": "kalamkari",
+    "name": "Kalamkari",
+    "state": "Andhra Pradesh",
+    "region": "South",
+    "shortDescription": "Ancient textile art utilizing natural dyes and a characteristic 'kalam' (pen) for painting.",
+    "detailedDescription": "Kalamkari is one of the most exquisite forms of traditional Indian textile art, with origins tracing back over 3,000 years to the state of Andhra Pradesh. The name is derived from the Persian words 'kalam' (pen) and 'kari' (craftsmanship), referring to the unique method of painting with a bamboo or date palm stick. There are two distinct styles: Srikalahasti, which is entirely hand-painted, and Machilipatnam, which uses block printing. The art process is incredibly involved, requiring multiple stages of washing, treating the fabric with mordants, and painting with natural dyes derived from minerals and plants. Historically, Kalamkari served as a visual storytelling medium for narrating Hindu mythological tales, used extensively for temple canopies and banners. Under the patronage of empires like the Vijayanagara and Golconda, it flourished into a highly refined art form. Today, it is celebrated for its eco-friendly nature and its ability to depict complex religious narratives with a warm, earthy color palette and intricate linework.",
+    "history": "Flourishing under the Vijayanagara Empire, Kalamkari evolved as a way to depict mythological stories on temple hangings. It was highly valued in the global trade routes of the 17th century, where it was often used as currency in the spice trade due to its high value and craftsmanship.",
+    "materialsUsed": ["Cotton fabric", "Bamboo pen", "Natural dyes", "Myrobalan", "Alum"],
+    "culturalSignificance": "A vital storytelling medium for Hindu epics. Its practice is a blend of artistic skill and deep religious devotion, often used to create sacred backdrops for deities in South Indian temples.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 13.7500, "lng": 79.7000 },
+    "medium": "Natural dyes on cotton"
+  },
+  {
+    "id": "kalighat",
+    "name": "Kalighat Painting",
+    "state": "West Bengal",
+    "region": "East",
+    "shortDescription": "Bold, expressive folk art from Kolkata, known for its social commentary and vibrant colors.",
+    "detailedDescription": "Kalighat painting emerged in the early 19th century in the vicinity of the Kalighat Kali Temple in Kolkata. What began as devotional souvenirs for pilgrims quickly evolved into a satirical and social art form that captured the essence of urban life in colonial Bengal. The artists, known as 'patuas', used bold brushstrokes and water-based pigments to create striking figures on paper. Unlike the traditional village scrolls, Kalighat paintings focused on single characters or scenes, often commenting on the hypocrisy of the newly emerging 'babu' culture and the shifting social dynamics of the city. The style is characterized by flowing lines, rhythmic compositions, and a minimal set of vibrant colors, often using shading to create a sense of volume. It represents a crucial bridge between traditional folk traditions and modern Indian art, influencing luminaries like Jamini Roy. Today, it remains a testament to the wit and artistic versatility of the Bengali people, capturing both the divine and the mundane with equal fervor.",
+    "history": "Developed by traditional scroll painters who migrated to the growing city of Calcutta, the art form adapted to the needs of common people. It became a powerful medium for reflecting on the cultural changes brought by British rule, blending religious themes with sharp social satire.",
+    "materialsUsed": ["Paper", "Watercolors", "Natural pigments", "Brushes from squirrel hair", "Charcoal"],
+    "culturalSignificance": "Unique for its early integration of social and political commentary into folk art. It offers a fascinating historical record of 19th-century urban life and remains a symbols of Kolkata's artistic identity.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 22.5200, "lng": 88.3400 },
+    "medium": "Watercolors on paper"
+  },
+  {
+    "id": "tanjore",
+    "name": "Tanjore Painting",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "shortDescription": "Classical panel painting featuring rich gold leaf, precious stones, and vibrant colors.",
+    "detailedDescription": "Tanjore or Thanjavur painting is a classical South Indian art form that originated in the late 16th century under the patronage of the Nayaka and Maratha rulers. It is characterized by its surface richness and vivid colors, often depicting Hindu gods, goddesses, and saints. The process involves creating a relief on a wooden plank (palagai) using a paste of chalk and gum. A distinctive feature is the extensive use of 22k gold foil and the embedding of semi-precious stones (Kundan) to give the deities a three-dimensional, glowing appearance. The paintings serve as devotional icons, intended to inspire worship and humility. The compositions are typically centralized, with the main deity housed in an ornate arch or pavilion. The use of bright reds, blues, and greens against the shimmering gold creates a regal and divine aura. Tanjore painting is recognized as a Geographical Indication (GI) and remains a highly valued heritage art, passed down through generations of specialized craftsmen who maintain the traditional techniques and spiritual integrity of the form.",
+    "history": "Flourishing after the fall of the Vijayanagara Empire, Tanjore art became the hallmark of the Thanjavur court. It was influenced by the Maratha and Deccani styles, eventually becoming a symbol of the wealth and religious devotion of the South Indian nobility and temples.",
+    "materialsUsed": ["Wooden plank", "Gold foil", "Semi-precious stones", "Chalk powder", "Vegetable colors"],
+    "culturalSignificance": "Essentially devotional icons, these paintings are centerpieces for prayer and symbols of auspiciousness. They represent the pinnacle of South Indian panel painting and royal patronage.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 10.7870, "lng": 79.1378 },
+    "medium": "Mixed media with gold on wood"
+  },
+  {
+    "id": "pichwai",
+    "name": "Pichwai",
+    "state": "Rajasthan",
+    "region": "West",
+    "shortDescription": "Ornate textile hangings from Nathdwara, depicting the life and celebrations of Shrinathji.",
+    "detailedDescription": "Pichwai paintings trace their origins back over 400 years to the 17th century in Nathdwara, Rajasthan. The term 'Pichwai' literally translates to 'that which hangs at the back' (pichh meaning back and wai meaning hanging), referring to their traditional use as textile backdrops behind the idol of Lord Krishna (Shrinathji) in Vaishnava temples. The art form was developed by the Pushtimarg sect to decorate temples for different seasons and festivals. Each Pichwai is a visual narrative of Lord Krishna's life, his leelas, and the emotions of his devotees. The paintings are typically done on hand-spun cotton cloth using natural pigments derived from minerals and plants, with real gold and silver used for embellishments. The style is incredibly intricate, with minute details in the characters' clothing, jewelry, and the lush pastoral landscapes of Vraj. Beyond their decorative beauty, Pichwais function as visual theology, transforming the temple sanctum into a vivid representation of Shrinathji's divine world and inviting pilgrims into a state of spiritual absorption.",
+    "history": "The art form emerged with the installation of the Shrinathji idol in Nathdwara. It has been preserved by a community of hereditary artists who consider their work a form of 'seva' (service) to the deity. Over centuries, it has evolved from temple use to a globally recognized heritage art.",
+    "materialsUsed": ["Cotton cloth", "Natural pigments", "Gold foil", "Silver ink", "Fine squirrel hair brushes"],
+    "culturalSignificance": "Deeply devotional, Pichwais are vital to temple rituals and festivals. They represent the soul of the Nathdwara community and the rich tradition of Krishna bhakti through visual storytelling.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 24.9228, "lng": 73.8214 },
+    "medium": "Natural colors on cotton fabric"
+  },
+  {
+    "id": "phad",
+    "name": "Phad Painting",
+    "state": "Rajasthan",
+    "region": "West",
+    "shortDescription": "Massive religious scroll paintings used as portable temples for storytelling by priest-singers.",
+    "detailedDescription": "Phad painting is a unique 700-year-old tradition of religious scroll painting from Rajasthan, specifically from the Shahpura region. These massive scrolls, often 15 to 30 feet long, depict the life and miracles of local folk deities like Pabuji and Devnarayan. The scrolls serve as 'mobile temples' and are carried by priest-singers known as Bhopas and Bhopis. As they travel from village to village, they narrate the stories through song and dance, using the Phad as a visual backdrop. The paintings are created on hand-woven cloth using vegetable colors. The layout is highly structured, with different sections of the scroll representing different parts of the narrative. The central figure of the deity is always the largest, and characters are shown in a stylized manner with large, expressive eyes. The entire process of making and performing with a Phad is deeply ritualistic, including a consecration ceremony and immersion in a holy river when the scroll finally wears out. It is a vibrant example of the living oral and visual traditions of the Rajasthani desert.",
+    "history": "The Joshi family of Shahpura has been the traditional custodian of this art for over seven centuries. Originally, it was an esoteric craft kept within the family, but the late 20th century saw a revival that opened the art form to the world while preserving its traditional narrative functions.",
+    "materialsUsed": ["Hand-woven cloth", "Natural dyes", "Wheat starch", "Indigo", "Cinnabar"],
+    "culturalSignificance": "A vital storytelling medium for local communities like the Rabari and Gujjar tribes. It bridges the gap between art, religion, and folk performance, acting as a spiritual guide for rural populations.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 25.6322, "lng": 74.9298 },
+    "medium": "Vegetable colors on handmade canvas"
+  },
+  {
+    "id": "cheriyal",
+    "name": "Cheriyal Scroll Painting",
+    "state": "Telangana",
+    "region": "South",
+    "shortDescription": "Unique narrative scroll art from Telangana used by wandering storytellers for moral lessons.",
+    "detailedDescription": "Cheriyal scroll painting is a highly stylized version of Nakashi art, originating from the Cheriyal village in Telangana. Dating back to the 5th century, these scrolls were once the primary visual aid for wandering bards and storytellers who moved from village to village narrating stories from the Puranas and Epics. A traditional scroll could be up to 60 feet long, featuring a series of panels that sequentially tell a story, much like a modern-day comic strip. The preparation of the canvas is a laborious process, involving the use of khadi cloth treated with a paste of rice starch, tamarind seeds, and clay. The colors are derived from natural sources, with a vibrant red typically used for the background. Faces are always painted in bright hues with distinct features, and the borders are often decorated with intricate patterns. Beyond the scrolls, this art form also extends to the creation of masks and dolls. Today, it is recognized with a Geographical Indication (GI) and continues to be a vibrant symbol of the Deccan heritage, even as it transitions from a performance tool to a decorative art.",
+    "history": "Historically linked to the storytelling traditions of folk singers like the Gouda Shetty, Cheriyal art flourished under the patronage of local communities. It was once the soul of village entertainment, but it nearly disappeared in the 20th century before being revived by dedicated artisanal families.",
+    "materialsUsed": ["Khadi cloth", "Tamarind seed paste", "Rice starch", "Sea shells", "Natural pigments"],
+    "culturalSignificance": "A unique narrative storytelling medium that emphasizes moral values and cultural heritage. It represents a living link to the oral traditions of the Telugu-speaking people and their traditional village life.",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800"
+    ],
+    "coordinates": { "lat": 17.5186, "lng": 78.9839 },
+    "medium": "Natural pigments on khadi"
+  }
+]
