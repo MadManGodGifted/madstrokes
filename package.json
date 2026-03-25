@@ -12,6 +12,7 @@
     "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "framer-motion": "latest",
+    "fuse.js": "^7.1.0",
     "leaflet": "^1.9.4",
     "lucide-react": "latest",
     "next": "latest",

@@ -157,6 +157,58 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            {/* Contribution / Become an Artist Section */}
+            <section className="py-24 bg-off-white relative overflow-hidden">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-terracotta/20 to-transparent" />
+                
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                    <div className="bg-white rounded-3xl p-12 lg:p-20 shadow-xl shadow-earth/5 border border-terracotta/10 text-center">
+                        <div className="max-w-3xl mx-auto">
+                            <h2 className="text-sm font-sans uppercase tracking-[0.3em] text-terracotta mb-6 font-bold">
+                                JOIN THE COMMUNITY
+                            </h2>
+                            <h3 className="text-4xl md:text-5xl font-serif text-indigo-dye mb-8 leading-tight">
+                                Contribute to Mad Strokes
+                            </h3>
+                            <p className="text-lg text-earth/70 leading-relaxed mb-12 font-sans">
+                                Help us preserve and celebrate the living heritage of Indian art. 
+                                Whether you are an artist looking to showcase your work, a researcher with cultural knowledge, 
+                                or a passionate enthusiast, your contribution helps build a more vibrant digital archive 
+                                of Indian creativity.
+                            </p>
+                            
+                            <div className="flex flex-wrap justify-center gap-6">
+                                <Link
+                                    href="/submit-art"
+                                    className="px-8 py-4 bg-terracotta text-white font-serif hover:bg-terracotta/90 transition-all rounded-sm shadow-lg shadow-terracotta/20 flex-shrink-0"
+                                >
+                                    Submit Your Art
+                                </Link>
+                                <Link
+                                    href="/suggest-art"
+                                    className="px-8 py-4 bg-white text-indigo-dye border border-indigo-dye/20 font-serif hover:bg-off-white transition-all rounded-sm flex-shrink-0"
+                                >
+                                    Suggest an Art Form
+                                </Link>
+                                <Link
+                                    href="/join-artists"
+                                    className="px-8 py-4 bg-indigo-dye text-white font-serif hover:bg-indigo-dye/90 transition-all rounded-sm shadow-lg shadow-indigo-dye/20 flex-shrink-0"
+                                >
+                                    Join as Artist
+                                </Link>
+                            </div>
+
+                            <p className="mt-10 text-xs text-earth/40 font-sans italic">
+                                Your submissions help us document the diverse artistic landscape of India.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Background decorative elements */}
+                <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-ochre/5 rounded-full blur-3xl -z-10" />
+                <div className="absolute -top-20 -right-20 w-80 h-80 bg-terracotta/5 rounded-full blur-3xl -z-10" />
+            </section>
         </main>
     );
 }
