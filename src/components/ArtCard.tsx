@@ -1,7 +1,7 @@
 "use client";
 
 import { ArtForm } from "@/lib/artData";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Palette } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
@@ -38,8 +38,15 @@ export default function ArtCard({ art }: ArtCardProps) {
                     <ArtImage
                         src={coverImage}
                         alt={art.name}
-                        className="aspect-[4/3] w-full"
+                        className="aspect-[4/3] w-full object-cover"
                     />
+                ) : coverImage === "" ? (
+                    <div className="aspect-[4/3] w-full bg-off-white flex flex-col items-center justify-center p-4 text-center border-b border-terracotta/5">
+                        <Palette size={32} className="text-terracotta/30 mb-2" />
+                        <span className="text-[11px] font-sans text-earth/50 uppercase tracking-widest font-semibold">
+                            Artwork coming soon
+                        </span>
+                    </div>
                 ) : (
                     <div className="aspect-[4/3] w-full bg-off-white animate-pulse" />
                 )}

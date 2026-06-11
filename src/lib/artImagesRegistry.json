@@ -100,9 +100,9 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Mata_ni_Pachedi_Textile_Art.jpg"
   ],
   "chittara": [
-    "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1541810271594-83952ba58941?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1628198642055-6679549cd87c?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/1/11/Chittara_art.png",
+    "https://upload.wikimedia.org/wikipedia/commons/4/4e/A_Munda_tribesman_sitting_in_front_of_wall_decorated_with_Munda_style_Sohrai_Painting_at_Isko_Village%2C_Hazaribagh.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/de/Sohrai_Flowery_Design_1.jpg"
   ],
   "keralamural": [
     "https://upload.wikimedia.org/wikipedia/commons/4/4b/Gajendramoksham_High_Resolution.jpg",
@@ -110,9 +110,9 @@
     "https://upload.wikimedia.org/wikipedia/commons/3/30/Kerala_mural_painting.jpg"
   ],
   "kavad": [
-    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kavad_from_Rajasthan%2C_early_20th_century%2C_paint_on_wood%2C_maker_unknown.JPG",
-    "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/1/11/Kavad_from_Rajasthan%2C_early_20th_century%2C_paint_on_wood%2C_maker_unknown.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/a/af/Chamba_Rumal_with_the_Mahavidyas_LACMA_M.80.4.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/1f/Rumal_with_Krishna_and_Radha_LACMA_AC1998.111.1.jpg"
   ],
   "dokra": [
     "https://upload.wikimedia.org/wikipedia/commons/d/df/Dokra_Art.jpg",
@@ -121,13 +121,13 @@
   ],
   "lippankaam": [
     "https://upload.wikimedia.org/wikipedia/commons/5/58/Lippan_art.png",
-    "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/1/13/2018-07-18_kutch_mud_work.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/df/Kasuti_embroidery.jpg"
   ],
   "manjusha": [
-    "https://upload.wikimedia.org/wikipedia/commons/6/61/Manjusha_boat_art.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/7/72/Manjusha_drawing.jpg",
-    "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manjusha_boat_art.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c0/Manjusha_drawing.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/bf/Basic_shapes_in_Sohrai_Painting.jpg"
   ],
   "sohrai": [
     "https://upload.wikimedia.org/wikipedia/commons/0/05/Sohrai_Painting.jpg",
@@ -137,16 +137,16 @@
   "khovar": [
     "https://upload.wikimedia.org/wikipedia/commons/1/14/Sohrai_and_Kohbar_Paintings_01.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/1/16/Sohrai_and_Kohbar_Paintings_02.jpg",
-    "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flowery_design_2_in_Sohrai_Painting.jpg"
   ],
   "kasuti": [
-    "https://upload.wikimedia.org/wikipedia/commons/0/07/Kasuti_embroidery.jpg",
-    "https://images.unsplash.com/photo-1544413647-b539bfcacc6d?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/d/df/Kasuti_embroidery.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/3/39/Kasuti_of_Karnataka.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/07/Kasuti_embroidery.jpg"
   ],
   "chambarumal": [
     "https://upload.wikimedia.org/wikipedia/commons/6/67/Artist%2C_maker_unknown%2C_India_-_Ceremonial_Cover_%28Chamba_Rumal%29_-_Google_Art_Project.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/2/23/Chamba_Rumal_.jpg",
-    "https://images.unsplash.com/photo-1627341870230-0192eef81fdb?auto=format&fit=crop&q=80&w=800"
+    "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chamba_Rumal_with_Scenes_of_Gopis_Adoring_Krishna_LACMA_M.71.1.40.jpg"
   ]
 }

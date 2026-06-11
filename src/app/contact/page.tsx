@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Instagram, Youtube, MapPin } from "lucide-react";
+import { Mail, Instagram, MapPin } from "lucide-react";
 
 export default function ContactPage() {
     return (
@@ -50,22 +50,14 @@ export default function ContactPage() {
                         </div>
 
                         <div className="flex items-start space-x-6">
-                            <div className="p-4 bg-indigo-dye text-white rounded-2xl shadow-lg">
+                            <a href="https://www.instagram.com/mad.strokes/" target="_blank" rel="noopener noreferrer" className="p-4 bg-indigo-dye text-white rounded-2xl shadow-lg hover:bg-terracotta hover:scale-105 transition-all">
                                 <Instagram size={24} />
-                            </div>
-                            <div>
+                            </a>
+                            <div className="flex flex-col justify-center">
                                 <h3 className="text-xl font-serif text-earth mb-1">Instagram</h3>
-                                <p className="text-earth/60 font-sans">@mads.strokes</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-start space-x-6">
-                            <div className="p-4 bg-indigo-dye text-white rounded-2xl shadow-lg">
-                                <Youtube size={24} />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-serif text-earth mb-1">YouTube</h3>
-                                <p className="text-earth/60 font-sans">Mad Strokes Stories</p>
+                                <a href="https://www.instagram.com/mad.strokes/" target="_blank" rel="noopener noreferrer" className="text-earth/60 font-sans hover:text-terracotta transition-colors hover:underline">
+                                    @mad.strokes
+                                </a>
                             </div>
                         </div>
 

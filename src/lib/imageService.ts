@@ -1,91 +1,96 @@
 import { ArtForm } from "./artData";
-import { WikimediaService } from "./wikimediaService";
-import { UnsplashService } from "./unsplashService";
-import artImagesRegistry from "./artImagesRegistry.json";
 
-interface ArtImagesMap {
-  [key: string]: string[];
-}
+// ─── In-memory cache ─────────────────────────────────────────────────────────
+// Keyed by art.id → resolved image URLs (populated once per session)
+const imageCache = new Map<string, string[]>();
 
-const registry: ArtImagesMap = artImagesRegistry;
-
-const BACKUP_ART_IMAGE = "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=1000&auto=format&fit=crop";
+// ─── Search-term overrides ────────────────────────────────────────────────────
+// Some art-form names need more precise search queries to get clean results.
+const SEARCH_QUERY_OVERRIDES: Record<string, string> = {
+  kalighat:      "Kalighat painting Bengal",
+  pichwai:       "Pichwai painting Krishna Nathdwara",
+  phad:          "Phad painting Rajasthan Pabuji",
+  cheriyal:      "Cheriyal scroll painting Telangana",
+  mysore:        "Mysore painting Karnataka",
+  kangra:        "Kangra miniature painting Himachal",
+  basholi:       "Basohli painting Pahari",
+  thangka:       "Thangka Buddhist painting",
+  aipan:         "Aipan art Kumaon Uttarakhand",
+  alpana:        "Alpana folk art Bengal",
+  saura:         "Saura tribal painting Odisha",
+  santhal:       "Santhal tribal painting",
+  rogan:         "Rogan art Kutch Gujarat",
+  matanipachedi: "Mata ni Pachedi textile Gujarat",
+  chittara:      "Chittara art Karnataka",
+  keralamural:   "Kerala mural painting temple fresco",
+  kavad:         "Kavad art Rajasthan wooden storytelling",
+  dokra:         "Dokra metal craft lost wax",
+  lippankaam:    "Lippan art Kutch mud mirror",
+  manjusha:      "Manjusha art Bihar",
+  sohrai:        "Sohrai painting Jharkhand",
+  khovar:        "Khovar painting Jharkhand",
+  kasuti:        "Kasuti embroidery Karnataka",
+  chambarumal:   "Chamba Rumal embroidery Himachal",
+};
 
 export class ImageService {
+  /**
+   * Returns up to 6 live Wikimedia Commons image URLs for the given art form.
+   * Results are cached in memory for the session lifetime.
+   */
   static async getArtImages(art: ArtForm): Promise<string[]> {
-    console.log(`[ImageService] Resolving images for: ${art.name}`);
-    let results: string[] = [];
+    // Return cached results if available
+    if (imageCache.has(art.id)) {
+      return imageCache.get(art.id)!;
+    }
+
+    const query = SEARCH_QUERY_OVERRIDES[art.id] ?? `${art.name} India folk art painting`;
+    console.log(`[ImageService] Fetching images for: ${art.name} | query: "${query}"`);
 
     try {
-      // 1. Priority: Wikimedia Commons (Accuracy)
-      const wikiImages = await WikimediaService.searchImages(art.name);
-      const validWiki = wikiImages.filter(url => this.validateArtImage(url, art.name));
-      results = [...validWiki.slice(0, 3)];
-      console.log(`[ImageService] Found ${validWiki.length} valid Wikimedia images`);
+      // Use the existing Next.js API proxy to avoid CORS issues
+      const apiUrl = `/api/images?query=${encodeURIComponent(query)}&source=wikimedia`;
+      const response = await fetch(apiUrl);
 
-      // 2. Secondary: Unsplash (Aesthetics) - Fill if needed
-      if (results.length < 3) {
-        const unsplashImages = await UnsplashService.searchImages(art.name);
-        const validUnsplash = unsplashImages.filter(url => 
-          this.validateArtImage(url, art.name) && !results.includes(url)
-        );
-        results = [...results, ...validUnsplash.slice(0, 3 - results.length)];
-        console.log(`[ImageService] Added ${validUnsplash.length} Unsplash images to fill results`);
+      if (!response.ok) {
+        console.warn(`[ImageService] API error ${response.status} for "${query}"`);
+        imageCache.set(art.id, []);
+        return [];
       }
 
-      if (results.length >= 1) return results;
-    } catch (error) {
-      console.error(`[ImageService] Multi-source resolution error:`, error);
-    }
+      const data = await response.json();
+      const urls: string[] = (data.results ?? [])
+        .map((r: { urls: { regular: string } }) => r.urls?.regular)
+        .filter(Boolean)
+        .slice(0, 6);
 
-    // 2. Fallback to Verified Registry
-    const registeredImages = registry[art.id] || [];
-    if (registeredImages.length > 0) {
-      console.log(`[ImageService] Falling back to registry for ${art.name}`);
-      return registeredImages.slice(0, 3);
+      console.log(`[ImageService] Got ${urls.length} images for ${art.name}`);
+      imageCache.set(art.id, urls);
+      return urls;
+    } catch (err) {
+      console.error(`[ImageService] Fetch failed for "${art.name}":`, err);
+      imageCache.set(art.id, []);
+      return [];
     }
-
-    // 3. High-Quality Static Backup
-    console.log(`[ImageService] No dynamic/registered images. Using high-quality backup for ${art.name}`);
-    return [BACKUP_ART_IMAGE, `/placeholders/art-traditional-placeholder.svg`];
   }
 
   /**
-   * Quick utility to get just the first image
+   * Convenience: returns the first image URL (cover photo).
    */
   static async getCoverImage(art: ArtForm): Promise<string> {
     const images = await this.getArtImages(art);
-    return images[0];
+    return images[0] ?? "";
   }
 
-  private static validateArtImage(url: string, artFormName: string): boolean {
-    const lowerUrl = url.toLowerCase();
-    
-    // Strict Blacklist
-    const blacklist = [
-      'stock-photo', 'gettyimages', 'shutterstock', 'adobe-stock', 
-      'portrait', 'person', 'face', 'human', 'selfie', 'fashion',
-      'logo', 'graphic', 'banner', 'poster',
-      'nature', 'landscape', 'mountain', 'animal', 'bird',
-      'travel', 'hotel', 'tourism', 'generic', 'placeholder'
-    ];
-
-    if (blacklist.some(word => lowerUrl.includes(word))) return false;
-
-    // Reliability Check
-    const reliableSources = ['wikimedia', 'unsplash', 'pixabay', 'museum', 'archive'];
-    const isFromReliableSource = reliableSources.some(source => lowerUrl.includes(source));
-
-    // Context Keywords
-    const artKeywords = [
-      'painting', 'mural', 'canvas', 'ink', 'dye', 'handmade', 
-      'traditional', 'heritage', 'folk', 'tribal', 'ancient',
-      'sculpture', 'textile', 'weave', 'embroidery', 'pottery',
-      'manuscript', 'illustration', 'sketch', 'drawing'
-    ];
-
-    const hasArtKeyword = artKeywords.some(keyword => lowerUrl.includes(keyword));
-
-    return isFromReliableSource || hasArtKeyword;
+  /**
+   * Pre-warms the cache for a list of art forms in the background.
+   * Call this on page mount to avoid loading spinners when a user clicks an art form.
+   */
+  static prewarm(arts: ArtForm[]): void {
+    arts.forEach(art => {
+      if (!imageCache.has(art.id)) {
+        this.getArtImages(art).catch(() => {/* silently ignored */});
+      }
+    });
   }
 }

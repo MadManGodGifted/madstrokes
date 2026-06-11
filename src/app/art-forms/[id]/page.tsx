@@ -32,7 +32,7 @@ export default function ArtFormDetailPage() {
                     <span className="font-sans text-sm uppercase tracking-widest">Back to Gallery</span>
                 </Link>
 
-                <ArtFormDetails art={art} />
+                <ArtFormDetails key={art.id} art={art} />
             </div>
         </main>
     );

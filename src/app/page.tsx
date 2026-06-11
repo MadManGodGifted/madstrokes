@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import InteractiveMap from "@/components/InteractiveMap";
 import ArtCard from "@/components/ArtCard";
+import ArtImage from "@/components/ArtImage";
 import { artForms } from "@/lib/artData";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -47,9 +48,13 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="relative">
-                            <div className="aspect-square bg-off-white border border-ochre/20 rounded-lg overflow-hidden flex items-center justify-center p-4">
-                                <div className="text-earth/20 font-serif text-2xl">Artistic Representation</div>
+                        <div className="relative flex justify-center">
+                            <div className="aspect-[9/16] w-full max-w-[400px] bg-off-white border border-ochre/25 rounded-2xl overflow-hidden shadow-2xl">
+                                <ArtImage
+                                    src="/images/about-collage.jpg"
+                                    alt="Indian Art & Cultural Collage representing Mad Strokes"
+                                    className="w-full h-full object-cover hover:scale-[1.03] transition-transform duration-700"
+                                />
                             </div>
                             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-terracotta/10 rounded-full -z-10 blur-2xl" />
                         </div>
@@ -98,60 +103,50 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Owner's Portfolio Preview Section */}
+            {/* Personal Artwork & Creative Journey Section */}
             <section className="py-24 bg-white overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="relative">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                             <div className="order-2 lg:order-1 relative">
-                                <div className="aspect-[4/5] bg-off-white border border-indigo-dye/10 rounded-2xl overflow-hidden flex items-center justify-center">
-                                    <span className="text-earth/20 font-serif text-xl italic text-center p-8">
-                                        Showcasing a collection of personal artworks by the creator of Mad Strokes.
-                                    </span>
+                                <div className="aspect-[4/5] bg-off-white/80 border border-ochre/15 rounded-2xl p-10 flex flex-col justify-between shadow-xl relative">
+                                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#FDFCF8] rounded-bl-full border-b border-l border-ochre/10 -z-10" />
+                                    
+                                    <span className="font-serif text-6xl text-ochre/30 leading-none">“</span>
+                                    <p className="text-xl md:text-2xl text-earth/80 font-serif italic leading-relaxed z-10">
+                                        Art is a continuous dialogue between the past and the present. My creative journey is an exploration of cultural roots, organic textures, and the vibrant stories waiting to be told through every stroke of the brush.
+                                    </p>
+                                    <div className="mt-8 border-t border-ochre/25 pt-6 flex justify-between items-center z-10">
+                                        <div>
+                                            <p className="text-sm font-serif text-earth font-bold">Mantavya Rawat</p>
+                                            <p className="text-xs font-sans text-earth/50 uppercase tracking-widest">Creator, Mad Strokes</p>
+                                        </div>
+                                        <div className="h-2 w-2 rounded-full bg-terracotta/40 animate-pulse" />
+                                    </div>
                                 </div>
                                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-ochre/5 rounded-full blur-3xl -z-10" />
                                 <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-indigo-dye/5 rounded-full blur-3xl -z-10" />
                             </div>
 
                             <div className="order-1 lg:order-2">
-                                <h2 className="text-sm font-sans uppercase tracking-[0.2em] text-terracotta mb-4 font-bold">
-                                    THE ARTIST BEHIND THE STROKES
-                                </h2>
-                                <h3 className="text-5xl font-serif text-indigo-dye mb-8 leading-tight">
-                                    Personal Works & <br />
+                                <span className="text-sm font-sans uppercase tracking-[0.25em] text-terracotta mb-4 font-bold block">
+                                    THE ARTIST'S BACKGROUND
+                                </span>
+                                <h3 className="text-4xl md:text-5xl font-serif text-indigo-dye mb-8 leading-tight">
+                                    Personal Artwork & <br />
                                     Creative Journey
                                 </h3>
-                                <p className="text-lg text-earth/70 leading-relaxed mb-8 font-sans">
-                                    Beyond documenting traditional forms, Mad Strokes is also a home for contemporary creative
-                                    expressions. Discover personal experiments with texture, color, and storytelling that
-                                    bridge the gap between heritage and modern aesthetics.
-                                </p>
-                                <div className="space-y-6 mb-10">
-                                    <div className="flex items-start space-x-4">
-                                        <div className="w-12 h-12 flex-shrink-0 bg-off-white rounded-full flex items-center justify-center text-ochre">
-                                            <span className="font-serif text-xl">01</span>
-                                        </div>
-                                        <div>
-                                            <h4 className="font-serif text-xl text-indigo-dye mb-1">Modern Infusions</h4>
-                                            <p className="text-earth/60 text-sm italic">Blending traditional motifs with contemporary techniques.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-start space-x-4">
-                                        <div className="w-12 h-12 flex-shrink-0 bg-off-white rounded-full flex items-center justify-center text-terracotta">
-                                            <span className="font-serif text-xl">02</span>
-                                        </div>
-                                        <div>
-                                            <h4 className="font-serif text-xl text-indigo-dye mb-1">Storytelling Through Art</h4>
-                                            <p className="text-earth/60 text-sm italic">Each stroke carries a narrative of personal growth and exploration.</p>
-                                        </div>
-                                    </div>
+                                <div className="space-y-6 text-earth/70 font-sans leading-relaxed text-base">
+                                    <p>
+                                        My artistic background is built on a foundation of curiosity and a deep connection to Indian traditions. What began as early experiments with charcoal sketches and acrylic textures gradually evolved into a lifelong passion for classical and tribal Indian art forms.
+                                    </p>
+                                    <p>
+                                        I find profound inspiration in the mathematical harmony of Mandalas, the intricate storytelling of Madhubani paintings, and the fluid expressiveness of watercolors. Each medium allows me to blend ancient visual languages with a contemporary voice.
+                                    </p>
+                                    <p>
+                                        Through Mad Strokes, I invite you to explore this intersection of heritage and modern design. It is not just about documenting the rich art forms of India, but about experiencing the soul and rhythm behind every single stroke.
+                                    </p>
                                 </div>
-                                <Link
-                                    href="/portfolio"
-                                    className="inline-block px-8 py-4 bg-indigo-dye text-white font-serif hover:bg-indigo-dye/90 transition-colors rounded-sm shadow-lg shadow-indigo-dye/20"
-                                >
-                                    Explore the Portfolio
-                                </Link>
                             </div>
                         </div>
                     </div>

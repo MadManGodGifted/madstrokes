@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Youtube, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -18,7 +18,6 @@ export default function Footer() {
                         <div className="flex flex-col space-y-2 text-sm opacity-80">
                             <Link href="/about" className="hover:text-terracotta transition-colors">About Us</Link>
                             <Link href="/art-forms" className="hover:text-terracotta transition-colors">Indian Art Forms</Link>
-                            <Link href="/portfolio" className="hover:text-terracotta transition-colors">Mantavya&apos;s Portfolio</Link>
                             <Link href="/blog" className="hover:text-terracotta transition-colors">Blog & Stories</Link>
                         </div>
                     </div>
@@ -26,8 +25,7 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-serif mb-4 text-ochre">Connect</h4>
                         <div className="flex space-x-6 mb-6">
-                            <a href="#" className="hover:text-terracotta transition-colors"><Instagram size={20} /></a>
-                            <a href="#" className="hover:text-terracotta transition-colors"><Youtube size={20} /></a>
+                            <a href="https://www.instagram.com/mad.strokes/" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors"><Instagram size={20} /></a>
                             <a href="mailto:contact@madstrokes.com" className="hover:text-terracotta transition-colors"><Mail size={20} /></a>
                         </div>
                         <p className="text-xs opacity-60">

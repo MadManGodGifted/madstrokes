@@ -14,15 +14,40 @@ export async function GET(request: Request) {
   try {
     if (source === 'wikimedia') {
       console.log(`[Wikimedia API] Fetching images for query: "${query}"`);
-      const wikiUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(query)}&gsrlimit=5&origin=*`;
-      const response = await fetch(wikiUrl);
+      const wikiUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|mediatype&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(query)}&gsrlimit=10&origin=*`;
+      const response = await fetch(wikiUrl, {
+          headers: {
+              'User-Agent': 'MadStrokesApp/1.0 (contact@madstrokes.in)'
+          }
+      });
+      
+      if (!response.ok) {
+          console.error(`[Wikimedia API] Failed with status ${response.status}`);
+          return NextResponse.json({ results: [] });
+      }
+
       const data = await response.json();
       
-      const results = data.query?.pages ? Object.values(data.query.pages).map((page: any) => ({
-        urls: { regular: page.imageinfo?.[0]?.url }
-      })).filter(img => img.urls.regular) : [];
+      // Filter: only real images (no SVG, XCF, OGG), no maps/diagrams/stamps
+      const EXCLUDE_KEYWORDS = ['stamp', 'map', 'logo', 'icon', 'flag', 'diagram', 'location', 'svg'];
+      const results = data.query?.pages
+        ? Object.values(data.query.pages)
+            .map((page: any) => ({
+              url: page.imageinfo?.[0]?.url as string | undefined,
+              mediatype: page.imageinfo?.[0]?.mediatype as string | undefined,
+              title: (page.title as string ?? '').toLowerCase(),
+            }))
+            .filter(img => {
+              if (!img.url) return false;
+              const lowerUrl = img.url.toLowerCase();
+              if (lowerUrl.endsWith('.svg') || lowerUrl.endsWith('.xcf') || lowerUrl.endsWith('.ogg')) return false;
+              if (EXCLUDE_KEYWORDS.some(k => img.title.includes(k))) return false;
+              return true;
+            })
+            .map(img => ({ urls: { regular: img.url } }))
+        : [];
 
-      console.log(`[Wikimedia API] Found ${results.length} images for "${query}"`);
+      console.log(`[Wikimedia API] Found ${results.length} usable images for "${query}"`);
       return NextResponse.json({ results });
     }
 

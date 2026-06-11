@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface ArtImageProps {
   src: string;
@@ -13,6 +13,9 @@ interface ArtImageProps {
  * ArtImage is a robust wrapper around the standard img tag.
  * It handles loading states and automatically swaps to a placeholder
  * if the primary image fails to load or is invalid.
+ * 
+ * IMPORTANT: useEffect syncs internal imgSrc with external src prop changes
+ * so that switching art forms correctly resets and shows the new image.
  */
 export default function ArtImage({ 
   src, 
@@ -23,6 +26,13 @@ export default function ArtImage({
   const [imgSrc, setImgSrc] = useState(src);
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+
+  // Sync state whenever the src prop changes (e.g. user switches art form)
+  useEffect(() => {
+    setImgSrc(src);
+    setHasError(false);
+    setIsLoading(true);
+  }, [src]);
 
   const handleError = () => {
     if (!hasError) {
@@ -35,7 +45,6 @@ export default function ArtImage({
     <div className={`relative overflow-hidden bg-earth/5 ${className}`}>
       {isLoading && !hasError && (
         <div className="absolute inset-0 flex items-center justify-center animate-pulse bg-earth/10">
-          {/* Minimalist spinner or icon */}
           <div className="w-8 h-8 rounded-full border-2 border-terracotta/20 border-t-terracotta animate-spin" />
         </div>
       )}

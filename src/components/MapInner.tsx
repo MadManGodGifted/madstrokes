@@ -6,7 +6,7 @@ import { artForms } from "@/lib/artData";
 import { ImageService } from "@/lib/imageService";
 import L from "leaflet";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Palette } from "lucide-react";
 import ArtImage from './ArtImage';
 // Leaflet CSS is imported in globals.css
 
@@ -20,25 +20,35 @@ const customIcon = typeof window !== 'undefined' ? new L.Icon({
 
 function MapPopupImage({ art }: { art: any }) {
     const [imgUrl, setImgUrl] = useState<string | null>(null);
-    const [isPlaceholder, setIsPlaceholder] = useState(false);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
         const fetchImage = async () => {
             const url = await ImageService.getCoverImage(art);
             setImgUrl(url);
-            setIsPlaceholder(url.includes('placeholder'));
+            setIsLoaded(true);
         };
         fetchImage();
     }, [art]);
 
-    if (!imgUrl) return <div className="h-24 w-full mb-3 bg-off-white animate-pulse" />;
+    if (!isLoaded) return <div className="h-24 w-full mb-3 bg-off-white animate-pulse" />;
+
+    if (!imgUrl) {
+        return (
+            <div className="h-24 w-full mb-3 bg-off-white/80 border border-dashed border-terracotta/20 flex flex-col items-center justify-center p-2 text-center rounded">
+                <Palette size={20} className="text-terracotta/30 mb-1" />
+                <span className="text-[9px] font-sans text-earth/50 uppercase tracking-wider font-semibold">Artwork Coming</span>
+                <span className="text-[8px] font-sans text-terracotta/70 font-medium">Soon</span>
+            </div>
+        );
+    }
 
     return (
-        <div className={isPlaceholder ? 'bg-[#FDFCF8]' : ''}>
+        <div>
             <ArtImage 
                 src={imgUrl} 
                 alt={art.name} 
-                className={`h-24 w-full mb-3 ${isPlaceholder ? 'opacity-40 grayscale-[0.5]' : ''}`}
+                className="h-24 w-full mb-3 object-cover rounded"
             />
         </div>
     );
