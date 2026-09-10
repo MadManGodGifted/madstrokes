@@ -1,4 +1,5 @@
 import { ArtForm } from "./artData";
+import artImagesRegistry from "./artImagesRegistry.json";
 
 // ─── In-memory cache ─────────────────────────────────────────────────────────
 // Keyed by art.id → resolved image URLs (populated once per session)
@@ -42,6 +43,13 @@ export class ImageService {
     // Return cached results if available
     if (imageCache.has(art.id)) {
       return imageCache.get(art.id)!;
+    }
+
+    const curatedImages = artImagesRegistry[art.id as keyof typeof artImagesRegistry] ?? [];
+    if (curatedImages.length > 0) {
+      const urls = curatedImages.slice(0, 6);
+      imageCache.set(art.id, urls);
+      return urls;
     }
 
     const query = SEARCH_QUERY_OVERRIDES[art.id] ?? `${art.name} India folk art painting`;

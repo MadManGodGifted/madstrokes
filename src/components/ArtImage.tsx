@@ -21,7 +21,7 @@ export default function ArtImage({
   src, 
   alt, 
   className = '', 
-  fallback = 'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=1000&auto=format&fit=crop' 
+  fallback = '/placeholders/art-traditional-placeholder.svg' 
 }: ArtImageProps) {
   const [imgSrc, setImgSrc] = useState(src);
   const [hasError, setHasError] = useState(false);
